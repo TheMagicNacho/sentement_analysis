@@ -34,5 +34,6 @@ Note: you can replace the input file with whatever file you want
 
 # Updates
 - if more resources are available update the model: pszemraj/led-large-book-summary
+- Ref: [https://huggingface.co/docs/transformers/installation](https://huggingface.co/docs/transformers/installation)
 - Ref:
-    (https://huggingface.co/pszemraj/led-large-book-summary)[https://huggingface.co/pszemraj/led-large-book-summary]
+    [https://huggingface.co/pszemraj/led-large-book-summary](https://huggingface.co/pszemraj/led-large-book-summary)
