@@ -1,0 +1,13 @@
+[package]
+name = "sentement"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+pyo3 = { version = "0.17.3", features = ["auto-initialize"] }
+pyembed = "0.24.0"
+
+[dependencies.async-std]
+version = "1.6"
+features = ["attributes"]

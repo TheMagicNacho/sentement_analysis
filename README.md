@@ -20,6 +20,8 @@ Clone this repo to your working directory.
 
 `pip install -r requirements.txt`
 
+Conda: `conda install --file=requirements.txt`
+
 NOTE: You only need to do this once.
 
 2. Run the program:
@@ -37,3 +39,11 @@ Note: you can replace the input file with whatever file you want
 - Ref: [https://huggingface.co/docs/transformers/installation](https://huggingface.co/docs/transformers/installation)
 - Ref:
     [https://huggingface.co/pszemraj/led-large-book-summary](https://huggingface.co/pszemraj/led-large-book-summary)
+
+
+# Notes to Self
+- When using conda environment, you need to staticly link the library: `export LD_LIBRARY_PATH=~/miniconda3/envs/env-sentement/lib`
+- To install dependencies with conda set conda-forge channel to access the
+    Hugging Face libraries: `conda config --env --add channels conda-forge`
+
+
