@@ -3,7 +3,8 @@ use summarizer::Summarizer;
 
 use std::env;
 
-fn main() {
+#[async_std::main]
+async fn main() {
     // Argument parsing
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {
@@ -11,7 +12,7 @@ fn main() {
         return;
     }
 
-    let summary: String = Summarizer::read_file(&args[1]);
+    let summary: String = Summarizer::read_file(&args[1]).await;
 
     println!("--SUMMARY-- \n {}", summary);
 }
